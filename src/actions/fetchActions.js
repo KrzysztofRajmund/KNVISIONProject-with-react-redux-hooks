@@ -3,12 +3,11 @@ import { GET_PRODUCTDETAILS } from "./types";
 
 export const getItems = () => async (dispatch) => {
   try {
-    var res = await fetch("https://cors-anywhere.herokuapp.com/http://localhost:3000/items/", {
+    var res = await fetch("https://knvision-api.herokuapp.com/items", {
       method: "GET",
       headers: {
-        Authorization: "No Auth",
-        "Content-Type": "application/json"
-      }
+        "Content-Type": "application/json",
+       }
     });
 
     if (res.ok) {
@@ -26,12 +25,11 @@ export const getItems = () => async (dispatch) => {
 
 export const getProductDetails = (id) => async (dispatch) => {
   try {
-    var res = await fetch("https://cors-anywhere.herokuapp.com/http://localhost:3000/items/" + id, {
+    var res = await fetch("https://knvision-api.herokuapp.com/items/" + id, {
       method: "GET",
         headers: {
-          Authorization: "No Auth",
-          "Content-Type": "application/json"
-        }
+          "Content-Type": "application/json",
+         }
     });
 
     if (res.ok) {
