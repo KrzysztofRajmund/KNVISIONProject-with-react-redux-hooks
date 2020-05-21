@@ -24,11 +24,11 @@ const Routing = (props) => {
       <Router>
         <Route path="/" component={NavMain} />
         <Switch>
-        <Route path="/knvision/weddings/packages" component={Packages} />
-        <Route path="/knvision/weddings" component={WeddingPortfolio} />
-        <Route path="/knvision/contact" component={Contact} />
-        <Route path="/knvision/about" component={About} />
-          <Route path="/knvision/" component={MainPage} />
+        <Route path="/weddings/packages" component={Packages} />
+        <Route path="/weddings" component={WeddingPortfolio} />
+        <Route path="/contact" component={Contact} />
+        <Route path="/about" component={About} />
+          <Route path="/" component={MainPage} />
         </Switch>
         <Route path="/" component={Footer} />
       </Router>

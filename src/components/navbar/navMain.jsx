@@ -26,12 +26,12 @@ const NavMain = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
           <Nav.Link>
-            <Link to={"/knvision/weddings/packages"}>
+            <Link to={"/weddings/packages"}>
             Packages
             </Link>
             </Nav.Link>
           <Nav.Link> 
-          <Link to={"/knvision/weddings"}>
+          <Link to={"/weddings"}>
             Weddings
             </Link>
             </Nav.Link>
@@ -39,17 +39,17 @@ const NavMain = () => {
          
           <Nav className="mr-5">
           <Nav.Link>
-            <Link to={"/knvision/about"}>
+            <Link to={"/about"}>
             About
             </Link>
             </Nav.Link>
             <Nav.Link>
-            <Link to={"/knvision/contact"}>
+            <Link to={"/contact"}>
             Contact
             </Link>
             </Nav.Link>
             <Nav.Link>
-            <Link to={"/knvision"}>
+            <Link to={"/"}>
             <img
                   src={home}
                   alt="home"

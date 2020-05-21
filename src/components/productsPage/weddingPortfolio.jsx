@@ -44,7 +44,7 @@ const WeddingPortfolio = (match) => {
       <Col className="col-xs-12 col-md-4 col-xl-3">
           <Navbar>
             <Nav>  
-            <Link to={"/knvision/weddings/packages"}>
+            <Link to={"/weddings/packages"}>
             <small>Prices</small>
             </Link> 
             </Nav>
