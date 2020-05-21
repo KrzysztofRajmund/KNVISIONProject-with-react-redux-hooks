@@ -6,7 +6,7 @@ export const getItems = () => async (dispatch) => {
     var res = await fetch("https://knvision-api.herokuapp.com/items", {
       method: "GET",
       headers: {
-        "Content-Type": "text/plain; charset=dropbox-cors-hack",
+        "Content-Type": "application/json",
        }
     });
 
@@ -28,7 +28,7 @@ export const getProductDetails = (id) => async (dispatch) => {
     var res = await fetch("https://knvision-api.herokuapp.com/items/" + id, {
       method: "GET",
         headers: {
-          "Content-Type": "text/plain; charset=dropbox-cors-hack",
+          "Content-Type": "application/json",
          }
     });
 
