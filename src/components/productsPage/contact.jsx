@@ -15,17 +15,13 @@ const Contact = () => {
             <tbody>
               <tr>
                 <td className="pl-0 pr-0 basicDescriptionText">
-                <img src={portrait}
-             alt="image"
-             width="300px"
-             height="auto"
-          />
+                  <img src={portrait} alt="image" width="300px" height="auto" />
                 </td>
               </tr>
             </tbody>
           </Table>
         </Col>
-          {/* Contact Table */}
+        {/* Contact Table */}
         <Col className="col-12 col-md-4">
           <hr />
           <Table responsive borderless size="sm">
@@ -43,6 +39,16 @@ const Contact = () => {
                   <strong>Email:</strong>
                 </td>
                 <td className="basicDescriptionText">studio@knvision.co.uk</td>
+              </tr>
+              <tr>
+                <td className="pl-0 pr-0 basicDescriptionText">
+                  {" "}
+                  <strong>Address:</strong>
+                </td>
+                <td className="basicDescriptionText">
+                  Dalton House 60 Windsor Avenue London Greater London
+                  SW19 2RR United Kingdom
+                </td>
               </tr>
             </tbody>
           </Table>
